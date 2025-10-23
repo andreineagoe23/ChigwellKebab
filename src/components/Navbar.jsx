@@ -122,7 +122,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
       {/* Mobile menu */}
       {isOpen && (
         <div className="md:hidden bg-white dark:bg-gray-800 shadow-lg">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="px-4 pt-2 pb-3 space-y-1 sm:px-6">
             {navLinks.map((link) => (
               <a
                 key={link.name}

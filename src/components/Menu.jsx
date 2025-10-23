@@ -57,11 +57,11 @@ const Menu = () => {
         </div>
 
         {/* Menu Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {menuCategories.map((category, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+              className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl w-full"
             >
               {/* Category Header */}
               <div
@@ -74,17 +74,17 @@ const Menu = () => {
               </div>
 
               {/* Menu Items */}
-              <div className="p-6">
+              <div className="p-4 sm:p-6">
                 <ul className="space-y-4">
                   {category.items.map((item, itemIndex) => (
                     <li
                       key={itemIndex}
-                      className="flex justify-between items-center"
+                      className="flex justify-between items-center gap-2"
                     >
-                      <span className="text-gray-700 dark:text-gray-300 font-medium">
+                      <span className="text-gray-700 dark:text-gray-300 font-medium text-sm sm:text-base break-words flex-1">
                         {item.name}
                       </span>
-                      <span className="text-primary dark:text-accent font-bold text-lg">
+                      <span className="text-primary dark:text-accent font-bold text-base sm:text-lg whitespace-nowrap">
                         {item.price}
                       </span>
                     </li>

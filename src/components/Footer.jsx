@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-8">
           {/* About */}
           <div>
             <h3 className="text-2xl font-bold text-accent mb-4 font-poppins">
@@ -107,12 +107,12 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 text-center">
-          <p className="text-gray-400 flex items-center justify-center flex-wrap gap-1">
+          <p className="text-gray-400 flex items-center justify-center flex-wrap gap-1 text-sm sm:text-base break-words">
             © 2025 Chigwell King Kebab & Pizza | Demo website by
             <span className="text-accent font-semibold ml-1">Enso Digital</span>
             <Heart className="w-4 h-4 text-primary inline mx-1" />
           </p>
-          <p className="text-gray-500 text-sm mt-2">
+          <p className="text-gray-500 text-xs sm:text-sm mt-2 break-words">
             This is a portfolio demonstration website
           </p>
         </div>

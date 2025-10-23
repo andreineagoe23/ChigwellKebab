@@ -5,7 +5,7 @@ const About = () => {
       className="py-20 bg-white dark:bg-gray-800 transition-colors duration-300"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
           {/* Text Content */}
           <div className="order-2 md:order-1">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 font-poppins">
@@ -22,28 +22,28 @@ const About = () => {
               recipes to bring you the authentic taste of Mediterranean cuisine
               right here in East London.
             </p>
-            <div className="mt-8 grid grid-cols-3 gap-4 text-center">
-              <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg">
-                <p className="text-3xl font-bold text-primary dark:text-accent">
+            <div className="mt-8 grid grid-cols-3 gap-2 sm:gap-4 text-center">
+              <div className="bg-gray-100 dark:bg-gray-700 p-3 sm:p-4 rounded-lg">
+                <p className="text-2xl sm:text-3xl font-bold text-primary dark:text-accent">
                   10+
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1 break-words">
                   Years Serving
                 </p>
               </div>
-              <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg">
-                <p className="text-3xl font-bold text-primary dark:text-accent">
+              <div className="bg-gray-100 dark:bg-gray-700 p-3 sm:p-4 rounded-lg">
+                <p className="text-2xl sm:text-3xl font-bold text-primary dark:text-accent">
                   50+
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1 break-words">
                   Menu Items
                 </p>
               </div>
-              <div className="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg">
-                <p className="text-3xl font-bold text-primary dark:text-accent">
+              <div className="bg-gray-100 dark:bg-gray-700 p-3 sm:p-4 rounded-lg">
+                <p className="text-2xl sm:text-3xl font-bold text-primary dark:text-accent">
                   ★★★★★
                 </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1 break-words">
                   Customer Rated
                 </p>
               </div>

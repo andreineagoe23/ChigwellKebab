@@ -18,24 +18,24 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12">
           {/* Contact Info */}
           <div className="space-y-8">
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 sm:p-8">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 font-poppins">
                 Contact Information
               </h3>
 
               {/* Location */}
-              <div className="flex items-start space-x-4 mb-6">
-                <div className="bg-primary/10 dark:bg-accent/10 p-3 rounded-full">
-                  <MapPin className="w-6 h-6 text-primary dark:text-accent" />
+              <div className="flex items-start space-x-3 sm:space-x-4 mb-6">
+                <div className="bg-primary/10 dark:bg-accent/10 p-3 rounded-full flex-shrink-0">
+                  <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-primary dark:text-accent" />
                 </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">
+                <div className="flex-1 min-w-0">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1 text-sm sm:text-base">
                     Location
                   </h4>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base break-words">
                     Chigwell, East London
                     <br />
                     IG7 6BH, United Kingdom
@@ -44,17 +44,17 @@ const Contact = () => {
               </div>
 
               {/* Phone */}
-              <div className="flex items-start space-x-4 mb-6">
-                <div className="bg-primary/10 dark:bg-accent/10 p-3 rounded-full">
-                  <Phone className="w-6 h-6 text-primary dark:text-accent" />
+              <div className="flex items-start space-x-3 sm:space-x-4 mb-6">
+                <div className="bg-primary/10 dark:bg-accent/10 p-3 rounded-full flex-shrink-0">
+                  <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-primary dark:text-accent" />
                 </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">
+                <div className="flex-1 min-w-0">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1 text-sm sm:text-base">
                     Phone
                   </h4>
                   <a
                     href="tel:02085555555"
-                    className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-accent transition-colors"
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-accent transition-colors text-sm sm:text-base break-words"
                   >
                     0208 555 5555
                   </a>
@@ -62,15 +62,15 @@ const Contact = () => {
               </div>
 
               {/* Hours */}
-              <div className="flex items-start space-x-4">
-                <div className="bg-primary/10 dark:bg-accent/10 p-3 rounded-full">
-                  <Clock className="w-6 h-6 text-primary dark:text-accent" />
+              <div className="flex items-start space-x-3 sm:space-x-4">
+                <div className="bg-primary/10 dark:bg-accent/10 p-3 rounded-full flex-shrink-0">
+                  <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-primary dark:text-accent" />
                 </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">
+                <div className="flex-1 min-w-0">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1 text-sm sm:text-base">
                     Opening Hours
                   </h4>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base break-words">
                     Monday – Sunday
                     <br />
                     11:00 AM – 11:00 PM
@@ -80,16 +80,16 @@ const Contact = () => {
             </div>
 
             {/* Call to Action */}
-            <div className="bg-gradient-to-r from-primary to-red-800 rounded-lg shadow-lg p-8 text-white">
-              <h3 className="text-2xl font-bold mb-4 font-poppins">
+            <div className="bg-gradient-to-r from-primary to-red-800 rounded-lg shadow-lg p-6 sm:p-8 text-white">
+              <h3 className="text-xl sm:text-2xl font-bold mb-4 font-poppins">
                 Ready to Order?
               </h3>
-              <p className="mb-6">
+              <p className="mb-6 text-sm sm:text-base">
                 Call us now and we'll have your food ready for pickup!
               </p>
               <a
                 href="tel:02085555555"
-                className="inline-block bg-accent hover:bg-yellow-500 text-gray-900 font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
+                className="inline-block bg-accent hover:bg-yellow-500 text-gray-900 font-semibold px-4 sm:px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 text-sm sm:text-base break-words"
               >
                 Call Now: 0208 555 5555
               </a>
